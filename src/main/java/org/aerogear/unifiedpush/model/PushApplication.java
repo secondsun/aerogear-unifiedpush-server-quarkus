@@ -112,4 +112,8 @@ public class PushApplication extends PanacheEntity {
     public void setDeveloper(String developer) {
         this.developer = developer;
     }
+
+	public static PushApplication findByPushApplicationID(String id) {
+		return find("pushApplicationID", id).firstResult();
+	}
 }

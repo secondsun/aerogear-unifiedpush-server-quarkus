@@ -16,8 +16,6 @@
  */
 package org.aerogear.unifiedpush;
 
-import java.util.Date;
-
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
